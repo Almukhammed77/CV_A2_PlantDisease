@@ -54,4 +54,4 @@ python src/eval_iou.py
 - Synthetic share is 0 % (no generated media). You chose one SOTA method (SAM2), which the assignment allows.
 - MedSAM2 is SAM2 fine-tuned on medical data; for leaves the general SAM2.1 weights are used.
 - A1 inconsistency: `report.docx` from A1 describes Keras/MobileNetV2, the A1 code and metrics are PyTorch/ResNet18.
-  The A2 baseline uses the PyTorch numbers (`a1/metrics.json`).
+  The A2 baseline uses the PyTorch numbers (`a1/metrics.json`) .
