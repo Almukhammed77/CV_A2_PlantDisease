@@ -32,7 +32,7 @@ cv_a2/
 python -m venv .venv && source .venv/bin/activate        
 pip install -r requirements.txt
 pip install git+https://github.com/facebookresearch/sam2.git   
-python src/segment_sam2.py --data dataset --out outputs/seg      #
+python src/segment_sam2.py --data dataset --out outputs/seg      
 python src/run_experiments.py
 python src/make_figures.py && python src/benchmark_latency.py
 python src/app.py                                                
