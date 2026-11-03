@@ -1,0 +1,5 @@
+Model,Accuracy,Precision,Recall,F1
+logistic_regression,0.875,0.8759,0.875,0.8749
+svm,0.8,0.803,0.8,0.7995
+simple_cnn,0.875,0.8759,0.875,0.8749
+resnet18_transfer,0.95,0.95,0.95,0.95
